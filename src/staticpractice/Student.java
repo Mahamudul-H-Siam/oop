@@ -87,3 +87,19 @@
 //        System.out.println("Name: "+ name);
 //    }
 //}
+
+package staticpractice;
+
+import java.util.Random;
+
+public class Student{
+    public static void main(String[] args) {
+//        Random rn= new Random();
+//
+//        int randomnumber= rn.nextInt(10);
+//
+//        System.out.println(randomnumber);
+        int randomnumber= (int) (Math.random()*10);
+        System.out.println(randomnumber);
+    }
+}
