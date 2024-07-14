@@ -39,13 +39,24 @@
 //    }
 //}
 
+//package staticpractice;
+//public class Student{
+//    static int count=0;
+//    Student(){
+//        count++;
+//    }
+//    void totalstudent(){
+//        System.out.println("Count: "+ count);
+//}
+
+
 package staticpractice;
 public class Student{
-    static int count=0;
-    Student(){
-        count++;
+    void display(){
+        System.out.println("This is not a static method");
     }
-    void totalstudent(){
-        System.out.println("Count: "+ count);
+
+    static void display2(){
+        System.out.println("This is a static method");
     }
 }
