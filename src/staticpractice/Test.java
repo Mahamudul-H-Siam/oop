@@ -51,12 +51,22 @@
 //}
 
 
-package staticpractice;
-public class Test{
-    public static void main(String[] args) {
-        Student ob1= new Student();
-        ob1.display();
+//package staticpractice;
+//public class Test{
+//    public static void main(String[] args) {
+//        Student ob1= new Student();
+//        ob1.display();
+//
+//        Student.display2();
+//
+//        staticpractice.display0();
+//    }
+//}
 
-        Student.display2();
-    }
-}
+//package staticpractice;
+//public class Test{
+//    public static void main(String[] args) {
+//
+//        Student.display0();
+//    }
+//}

@@ -50,13 +50,40 @@
 //}
 
 
-package staticpractice;
-public class Student{
-    void display(){
-        System.out.println("This is not a static method");
-    }
+//package staticpractice;
+//public class Student{
+//    static{
+//        String id= "0112330944";
+//        String name= "Md. Mahamudul Hasan";
+//    }
+//
+//    void display(){
+//        System.out.println("This is not a static method");
+//    }
+//
+//    static void display2(){
+//        System.out.println("This is a static method");
+//    }
+//
+//    void display0(){
+//        System.out.println("ID: "+ id);
+//        System.out.println("Name: "+ name);
+//    }
+//}
 
-    static void display2(){
-        System.out.println("This is a static method");
-    }
-}
+
+//package staticpractice;
+//public class Student{
+//    static String id;
+//    static String name;
+//    static{
+//        id= "0112330944";
+//        name= "Md. Mahamudul Hasan";
+//    }
+//
+//
+//    static void display0(){
+//        System.out.println("ID: "+ id);
+//        System.out.println("Name: "+ name);
+//    }
+//}
