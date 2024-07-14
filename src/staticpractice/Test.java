@@ -21,19 +21,31 @@
 //    }
 //}
 
+//package staticpractice;
+//public class Test{
+//    public static void main(String[] args) {
+//        Student s1= new Student();
+//        s1.totalstudent();
+//
+//        Student s2= new Student();
+//        s1.totalstudent();
+//
+//        Student s3= new Student();
+//        s1.totalstudent();
+//
+//        Student s4= new Student();
+//        s1.totalstudent();
+//    }
+//}
+
 package staticpractice;
 public class Test{
     public static void main(String[] args) {
         Student s1= new Student();
         s1.totalstudent();
-
         Student s2= new Student();
-        s1.totalstudent();
-
+        s2.totalstudent();
         Student s3= new Student();
-        s1.totalstudent();
-
-        Student s4= new Student();
-        s1.totalstudent();
+        s3.totalstudent();
     }
 }
